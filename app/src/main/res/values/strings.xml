@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Car For Safe</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_screen_lock">ScreenLock</string>
+
+    <string name="title_activity_sample">設定</string>
+    <string name="notify_summary">振って助けを求めます</string>
+
+    <string name="preference_location_title">位置情報取得方法</string>
+    <string name="checkbox_location">位置情報を提供する</string>
+    <string name="checkbox_location_summary">ONにしてください</string>
+    <string name="checkbox_location_network">ネットワーク</string>
+    <string name="checkbox_location_network_summary">WiFiを通じた位置情報の提供を許可します</string>
+    <string name="checkbox_location_gps">GPS</string>
+    <string name="checkbox_location_gps_summary">設定画面からGPSを通じた位置情報の提供を許可します</string>
+
+    <string name="send_information">情報の送信先</string>
+    <string name="company_choose">送信会社</string>
+    <string name="summary_company_choose">提携会社に送ることができます</string>
+    <string-array name="entries_company_choose">
+    </string-array>
+    <string-array name="entryvalues_company_choose">
+    </string-array>
+</resources>

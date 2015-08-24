@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/preference_location_title">
+        <CheckBoxPreference
+            android:key="checkbox_location"
+            android:title="@string/checkbox_location"
+            android:summary="@string/checkbox_location_summary"/>
+        <CheckBoxPreference
+            android:key="checkbox_location_gps"
+            android:title="@string/checkbox_location_gps"
+            android:summary="@string/checkbox_location_gps_summary"/>
+        <CheckBoxPreference
+            android:key="checkbox_location_network"
+            android:title="@string/checkbox_location_network"
+            android:summary="@string/checkbox_location_network_summary" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/send_information">
+        <!--<PreferenceScreen-->
+            <!--android:title="@string/mail_address"-->
+            <!--android:summary="@string/summary_mail">-->
+            <!--<intent android:action="com.example."-->
+        <!--</PreferenceScreen>-->
+        <MultiSelectListPreference
+            android:key="company_choose"
+            android:title="@string/company_choose"
+            android:summary="@string/summary_company_choose"
+            android:entries="@array/entries_company_choose"
+            android:entryValues="@array/entryvalues_company_choose"
+            android:dialogTitle="@string/company_choose">
+        </MultiSelectListPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
